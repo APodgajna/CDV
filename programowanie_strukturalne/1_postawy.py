@@ -49,8 +49,25 @@ print(ostatniZnak)
 
 #konwersja
 x = "5"
-print(type(x))
+print(type(x)) #str
 x = int(x)
-print(type(x))
+print(type(x)) #int
+
+#konwrersja nieoficjalna
+y = 4
+print(type(y)) #int
+y = y / 2
+print(type(y)) #float
+print(y)
+
+nazwisko = "Kowalski"
+print(nazwisko)
+print(nazwisko[0]) #K
+print(nazwisko[0:3]) #Kow
+print(nazwisko[-2]) #k
+print(nazwisko[-2:]) #ki
+print(nazwisko[:-2]) #Kowals
+print(nazwisko[:-2:2]) #Kwl
+
 
 print()
